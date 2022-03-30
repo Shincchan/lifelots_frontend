@@ -4,9 +4,9 @@ import { Person, Search, Chat, Notifications } from '@mui/icons-material';
 
 export default function Navbar() {
   return (
-    <div className='navbarWraper'>
+    <div className='navbarContainer'>
       <div className="navbarLeft">
-        <span className='name'>LifeLots</span>
+        <span className='webName'>LifeLots</span>
       </div>
       <div className="navbarCenter">
         <div className="searchBar">

@@ -1,6 +1,103 @@
 .rightbar{
-    flex:3
+    flex:3.5;
+    height: calc(100vh - 3em);
+    margin-top: 3rem;
 }
-.rightbarWraper{
-    padding: 0 ;
+.rightbarWrapper{
+    
+    padding: 20px 20px 0 0 ;
+}
+
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+
+}
+
+.birthdayImage{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+
+}
+.birthdayText{
+    font-weight: 600;
+    font-size: 1rem ;
+}
+.rightbarTitle{
+    margin-bottom: 1rem;
+}
+
+.onlineFriends{
+    padding: o;
+    margin: 0;
+    list-style: none;
+}
+.friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+}
+.imageContainer{
+    margin-right: 0.5rem;
+    position: relative;
+
+}
+.fImage{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.iBadge{
+    width: 15px;
+    height: 15px;
+    background-color: #7fec02;
+    border-radius: 50%;
+    position: absolute;
+    color: rgb(1 133 109);
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border: 2px solid white;
+
+}
+.fName{
+    font-style: inherit;
+    font-weight: bolder;
+}
+
+.rightbarTitle{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.infoItem{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.rightbarFollowings{
+    display: flex; 
+    flex-wrap: wrap ;
+    justify-content: space-between;
+}
+.rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.followingImage{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+
 }

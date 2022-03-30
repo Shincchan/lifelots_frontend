@@ -1,7 +1,9 @@
 .feed{
-    flex:6;
+    flex:5.5;
     height: calc(100vh - 3em);
+    margin-top: 3rem;
 }
 .feedWrapper{
+   
     padding: 20px;
 }
